@@ -1,0 +1,13 @@
+{% extends 'app_main/_base.html' %}
+{% load static %}
+
+{% block title %}
+    {{ title }}
+{% endblock title %}
+
+{% block middle %}
+    Welcome to App
+    <div class="helloimg">
+        <img src="{% static 'app_main/img/hello-img.png' %}" alt="img.jpg"/>
+    </div>
+{% endblock middle %}
